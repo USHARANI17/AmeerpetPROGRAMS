@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+    function login(){
+        var lForm=document.getElementById("log").value;
+        var name=document.getElementById("name").value;
+        var password=document.getElementById("password").value;
+        if(name==="hero"){
+            if(password==="hero@123"){
+                document.write("welcome to ameerpet technologies");
+            }
+        }
+    }
+    function aqua(){
+        document.body.style.color="aqua";
+        var color=document.getElementById("log");
+    }
+</script>
+</head>
+<body>
+    <form onsubmit="login()">
+        <label>User name:</label><input type="text" value="enter user name" id="name"><br><br>
+        <label>password</label><input type="password" value="enter your password" id="password"><br><br>
+       <input type="submit" value="login"> 
+       <input  onclick="aqua()"
+    </form>
+    
+</body>
+</html>

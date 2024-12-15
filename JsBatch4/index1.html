@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="title">drum 🥁 kit</h1>
+    <div class="set">
+
+    <button class="w drum">sa</button>
+    <button class="w drum">ri</button>
+    <button class="w drum">ga</button>
+    <button class="w drum">ma</button>
+    <button class="w drum">pa</button>
+    <button class="w drum">dha</button>
+    <button class="w drum">ni</button>
+    </div>
+    <script >
+        var numberOfButtons=document.querySelectorAll(".drum").length;
+        for(var i=0;i<numberOfButtons; i++){
+        document.querySelectorAll(".drum")[i].addEventListener("click",function(){
+    alert("i got clicked!");
+})
+        }
+    </script>
+</body>
+<footer>
+    made with ❤️ in my world
+</footer>
+</html>

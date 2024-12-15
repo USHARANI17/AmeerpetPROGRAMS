@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Event Object</h1>
+    <h2>Property:Target</h2>
+    <button  id="my-btn" style="background-color: blueviolet">ClickHere</button>
+    <script>
+        let myButton=document.querySelector('#my-btn');
+        myButton.addEventListener('mouseup',(event)=>{
+        console.log(event.target.id);
+        console.log(event.target.value);
+        console.log(event.target.getAttribute('background-color'));
+        console.log(event.target.tagName);
+       })
+    </script>
+</body>
+</html>

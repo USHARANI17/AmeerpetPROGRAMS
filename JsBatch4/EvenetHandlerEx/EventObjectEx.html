@@ -1,0 +1,56 @@
+<!--<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <h1>Event Objects</h1>
+   <button onClick="handleClick(event)">click me</button> 
+   <script>
+    function handleClick(event){
+        console.log("button clicked");
+        console.log(event);
+    }
+   </script>
+</body>
+</html>-->
+
+<!--<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Event Object</h1>
+    <button id="my-btn">ClickOn me</button>
+    <script>
+        let myButton=document.getElementById("my-btn");
+        myButton.addEventListener('click',(event)=>{
+         c
+        })
+    </script>
+</body>
+</html>-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Object</title>
+</head>
+<body>
+    <h1>Event Object</h1>
+    <button id="my-btn">Click on me</button>
+    <script>
+        let myButton = document.getElementById("my-btn");
+        myButton.addEventListener('click', function(e) {
+            console.log(e.eventPhase);
+        });
+    </script>
+</body>
+</html>

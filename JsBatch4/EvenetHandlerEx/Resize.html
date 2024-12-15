@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <h1>Event Listener</h1>
+   <p id="para"></p> 
+   <script>
+    let myPara=document.querySelector('#para');
+    window.addEventListener('resize',()=>{
+        myPara.innerHTML="you resized the page";
+    })
+        document.activeElement('DOMcontentLoaded',()=>{
+            myPara.innerHTML="you resized the page";
+        });
+    
+   </script>
+</body>
+</html>

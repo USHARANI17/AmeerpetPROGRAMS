@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function add(){
+            var number1=parseInt(document.getElementById("num1").value);
+            var number2=parseInt(document.getElementById("num2").value);
+             var result=number1+number2;
+             document.getElementById("res").value=result;
+             return false;   
+        }
+    </script>
+</head>
+<body>
+    <form onsubmit="return add()">
+        <label>Enter number1:</label><input type="text" id="num1" placeholder="enter num1">
+        <label>Enter number2:</label><input type="text" id="num2" placeholder="enter num2">
+<label>Result</label><input type="text" id="res" placeholder="Result" readonly/>
+<input type="submit" value="Add">
+</form>
+    </form>
+    
+</body>
+</html>

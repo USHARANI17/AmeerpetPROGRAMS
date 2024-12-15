@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../test.html"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "front end amer"
+	}
+}

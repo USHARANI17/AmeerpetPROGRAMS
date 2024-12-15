@@ -1,0 +1,105 @@
+<html>
+    <head>
+        <style>
+            body{
+                display: flex;
+                /*border: 1px  solid black ;*/
+            }
+            #two{
+                
+                width: 350px;
+                height: 350px;
+                box-shadow: 0px 0px 10px black;
+                margin-left:150px ;
+                margin-top:100px;
+                margin-bottom:500px;
+            
+            }
+            img{
+                margin:150px 150px ;
+                
+            }
+            #one{
+               
+                width:100px;
+                height: 100px;
+                justify-content:end;
+                align-items: center;
+                margin-left: 30px;
+
+               
+            
+            }
+            input{
+                margin:15px;
+                padding:10px 60px 10px 15px;
+                margin-left: 40px;
+                margin-right: 40px;
+            }
+        
+            h1{
+                color: blue;
+                font-size:50px;
+                margin-top:180px;
+                margin-left:250px ;
+            }
+            h3{
+                
+               /* border: 1px solid black;*/
+                display: flex;
+               /* margin-bottom: 20px;
+                margin-left:20px;*/
+                justify-content:center;
+                align-items:center;
+                margin-top: 20px;
+                margin-bottom:400px;
+
+            }
+            button{
+                color: white;
+                background-color:blue;
+                width:250px;
+                height:40px;
+               margin-left:40px;
+                border-radius:5px;
+                border: 1px solid white;
+              
+            }
+            a{
+                display: flex;
+                justify-content:center;
+                align-items:end;
+             text-decoration: none;
+             margin-top: 30px;
+            }
+            #new{
+                color: white;
+                background-color: green;
+                padding:5px ;
+                width: 200px;
+                margin-bottom:60px;
+                margin-top: 20px;
+                margin-left:60px;
+            
+            }
+            
+        </style>
+
+    </head>
+    <body>
+       <div id="one">
+       <img src="data:image/png;base64,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" width="200px" height="100px" alt="facebook"/> </div><br>  
+        <h3>Connect with friends and the world around you on Facebook. </h3>
+    </div>
+        <div id="two">
+            <input type="email or phone number" placeholder="email or phone number">
+            <input type="password" placeholder="password"/>
+           <button>Login</button>
+           <a href="reset password">Forgot password?</a>
+           <hr>
+           <button id="new"> create new account</button>
+
+        </div>
+        
+    </body>
+</html>

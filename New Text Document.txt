@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<head>
+<title>front end</title>
+</head>
+<body bgcolor="yellow">
+<h1><font face="impact" color="red" size="4">Ameerpet technologies</font></h1>
+<br><br>
+
+</body>
+
+
+
+
+
+
+
+
+
+
+</html>

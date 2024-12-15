@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <link>
+        <title>Transition property</title>
+        <style>
+        #one{
+            transition-duration:1s;
+            transition-property:width;
+            transition-property: height;
+            background-color: #000;
+            color: aqua;
+            height: 200px;
+            width: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+           transition-timing-function:linear;
+           transition-delay: 2s;
+        }
+        #one:active{
+            width: 500px;
+            height: 500px;
+
+        }
+
+
+    </style>
+    </head>
+    <body>
+        <div id="one">
+            Hero Text
+        </div>
+
+    </body>
+</html>

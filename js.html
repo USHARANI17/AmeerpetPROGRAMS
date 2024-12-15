@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>onmousemove Event Example</title>
+<style>
+    #container {
+        width: 300px;
+        height: 200px;
+        border: 1px solid black;
+        background-color: lightgray;
+        padding: 10px;
+    }
+</style>
+</head>
+<body>
+
+<div id="container" onmousemove="showCoords(event)">
+    Move your mouse over this box.
+</div>
+
+<script>
+function showCoords(event) {
+    var x = event.clientX;
+    var y = event.clientY;
+    var coords = "X: " + x + ", Y: " + y;
+    document.getElementById("container").innerHTML = coords;
+}
+</script>
+
+</body>
+</html>

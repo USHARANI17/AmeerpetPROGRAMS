@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function add(){
+    var number1=document.getElementById("num1").value;
+            var numb1=parseInt(number1);
+            var number2=document.getElementById("num2").value;
+            var numb2=parseInt(number2);
+            var result=numb1+numb2;
+            document.getElementById("res").value=result;
+        }
+        function sub(){
+    var number1=document.getElementById("num1").value;
+            var numb1=parseInt(number1);
+            var number2=document.getElementById("num2").value;
+            var numb2=parseInt(number2);
+            var result=numb1-numb2;
+            document.getElementById("res").value=result;
+        }
+        function div(){
+    var number1=document.getElementById("num1").value;
+            var numb1=parseInt(number1);
+            var number2=document.getElementById("num2").value;
+            var numb2=parseInt(number2);
+            var result=numb1/numb2;
+            document.getElementById("res").value=result;
+        }
+        function mul(){
+    var number1=document.getElementById("num1").value;
+            var numb1=parseInt(number1);
+            var number2=document.getElementById("num2").value;
+            var numb2=parseInt(number2);
+            var result=numb1*numb2;
+            document.getElementById("res").value=result;
+        }
+        </script>
+</head>
+<body>
+    <label>Enter Num1 :</label>
+    <input type="text" placeholder="enter the value of num1" id="num1"/><br><br>
+    <label>Enter Num2 :</label>
+    <input type="text" placeholder="enter the value of num2" id="num2"/><br><br>
+    <input type="text" id="res" readonly/>
+    <button onclick="add()">ADD</button>
+    <button onclick="sub()">Sub</button>
+    <button onclick="div()">Div</button>
+    <button onclick="mul()">Multiply</button>
+</body>
+</html>

@@ -1,0 +1,26 @@
+#div1{
+background-image: url(backi.jpg);
+background-size:cover;
+background-attachment:scroll;
+}
+#div2{
+    background-image: url(food.jpg);
+    background-size:contain;
+background-attachment: fixed;
+}
+#div3{
+    background-image: url(loginimage.png);
+    background-size:contain;
+background-attachment: fixed;
+}
+#div4{
+    background-image: url(pizza.jpg);
+    background-size:cover;
+background-attachment:scroll;
+}
+#div5{
+    background-image: url(tea.jpg);
+    background-size:cover;
+background-attachment:scroll;
+}
+
